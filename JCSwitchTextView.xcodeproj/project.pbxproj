@@ -15,6 +15,7 @@
 		04F835BA1C17E07400321118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F835B81C17E07400321118 /* LaunchScreen.storyboard */; };
 		04F835C51C17E07400321118 /* JCSwitchTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F835C41C17E07400321118 /* JCSwitchTextViewTests.m */; };
 		04F835D01C17E07500321118 /* JCSwitchTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F835CF1C17E07500321118 /* JCSwitchTextViewUITests.m */; };
+		04F835E01C17EC9800321118 /* JCSwitchTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F835DF1C17EC9800321118 /* JCSwitchTextView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		04F835CB1C17E07500321118 /* JCSwitchTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCSwitchTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F835CF1C17E07500321118 /* JCSwitchTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCSwitchTextViewUITests.m; sourceTree = "<group>"; };
 		04F835D11C17E07500321118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F835DE1C17EC9800321118 /* JCSwitchTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCSwitchTextView.h; sourceTree = "<group>"; };
+		04F835DF1C17EC9800321118 /* JCSwitchTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCSwitchTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		04F835A91C17E07400321118 /* JCSwitchTextView */ = {
 			isa = PBXGroup;
 			children = (
+				04F835DD1C17EC9800321118 /* JCSwitchTextView */,
 				04F835AD1C17E07400321118 /* AppDelegate.h */,
 				04F835AE1C17E07400321118 /* AppDelegate.m */,
 				04F835B01C17E07400321118 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				04F835D11C17E07500321118 /* Info.plist */,
 			);
 			path = JCSwitchTextViewUITests;
+			sourceTree = "<group>";
+		};
+		04F835DD1C17EC9800321118 /* JCSwitchTextView */ = {
+			isa = PBXGroup;
+			children = (
+				04F835DE1C17EC9800321118 /* JCSwitchTextView.h */,
+				04F835DF1C17EC9800321118 /* JCSwitchTextView.m */,
+			);
+			path = JCSwitchTextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F835E01C17EC9800321118 /* JCSwitchTextView.m in Sources */,
 				04F835B21C17E07400321118 /* ViewController.m in Sources */,
 				04F835AF1C17E07400321118 /* AppDelegate.m in Sources */,
 				04F835AC1C17E07400321118 /* main.m in Sources */,
